@@ -13,7 +13,7 @@ const prefix = '+'
 
  client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity("GMZN Host", {type: 'PLAYING'});
+  client.user.setActivity("GMZN Host | +play", {type: 'PLAYING'});
 });
  
  
